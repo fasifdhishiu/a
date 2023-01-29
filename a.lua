@@ -55,8 +55,8 @@ _G.SilentAim={
     Target="Head",--All,Head,Torso,Left Leg,Right Leg,Left Arm,Right Arm  target for silent aim (due to the shittyness of the script it probly will just hit the legs or torso)
     Auto_Shoot=true,--true,false  automaticly shoots when a play is in your fov 
     Auto_Wall=true,--true,false  automaticly targets players if they cna be penetrated by gun (may break with attachments)
-    Fov=150,--0-inf  set fov size
-    Show_Fov=true,--true,false   show fov circle
+    Fov=inf,--0-inf  set fov size
+    Show_Fov=false,--true,false   show fov circle
     Fov_Color=Color3.fromRGB(255,0,0),--rgb  circle color
     Ignore_Fov=true,--true,false  disable or enable fov chck
 }
